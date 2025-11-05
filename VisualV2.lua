@@ -49,7 +49,7 @@ Instance.new("UICorner", barFill).CornerRadius = UDim.new(0, 5)
 for i = 1, 100 do
 	barFill.Size = UDim2.new(i/100, 0, 1, 0)
 	percent.Text = "Loading... " .. i .. "%"
-	task.wait(0.5)
+	task.wait(0.1)
 end
 
 -- Fade out
