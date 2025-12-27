@@ -788,7 +788,7 @@ local ToggleButton = Instance.new("ImageButton")
 ToggleButton.Name = "ToggleButton"
 ToggleButton.Parent = ScreenGui
 ToggleButton.BackgroundTransparency = 1
-ToggleButton.Image = "rbxassetid://81767899440204"
+ToggleButton.Image = "rbxassetid://130563907183918"
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Position = UDim2.new(0, 20, 0.5, -25)
 ToggleButton.Draggable = true
@@ -819,7 +819,7 @@ TitleLabel.BackgroundTransparency = 1
 TitleLabel.Position = UDim2.new(0, 0, 0, 10)
 TitleLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleLabel.Font = Enum.Font.GothamBold
-TitleLabel.Text = "MOZIL HUB V4"
+TitleLabel.Text = "JAX HUB V2"
 TitleLabel.TextColor3 = Color3.new(1, 1, 1)
 TitleLabel.TextSize = 24
 TitleLabel.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
@@ -881,7 +881,7 @@ CreatorLabel.BackgroundTransparency = 1
 CreatorLabel.Position = UDim2.new(0, 0, 0.8, 0)
 CreatorLabel.Size = UDim2.new(1, 0, 0, 20)
 CreatorLabel.Font = Enum.Font.Gotham
-CreatorLabel.Text = "Made by MozilOnTop"
+CreatorLabel.Text = "Made by Jax_Scripts"
 CreatorLabel.TextColor3 = Color3.new(1, 1, 1)
 CreatorLabel.TextSize = 14
 
@@ -941,3 +941,4 @@ CloseButton.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
 
 end)
+
