@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Subscribe To MozilOnTop";
+shared.LoaderTitle = "Subscribe To Jax_Scripts";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -93,7 +93,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://81767899440204",
+    Image = "rbxassetid://130563907183918",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: MozilOnTop",
+    Text = "Youtube: Jax_Scripts",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -939,4 +939,5 @@ end)
 
 CloseButton.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
+
 end)
